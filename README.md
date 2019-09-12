@@ -33,7 +33,7 @@ Two or more cameras that can be connected to the internet.
 
 ## Challenges
 
-* Camera: Properly streaming `h.264` from multiple cameras, e.g. GoPros
+* Camera: Properly streaming `h.264` from multiple cameras in high quality, e.g. GoPros
 * Coordination: The accuracy of frame capture between multiple video streams is paramount. If the snapshots are off by too much of a delta, even a second, they won't line up.
 * Scaling: The combination of camera framerate and pipeline sampling speed will push the number of parallel lambda functions
 * Cost: Doing this "on the cheap". We aren't going to sample and index every frame.
